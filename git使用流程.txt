@@ -1,0 +1,35 @@
+官网下载git软件
+
+
+打开git bash终端执行命令查看用户名：git config --list  
+
+终端方式配置访问github的邮箱与用户名
+git config  --global user.name 名称
+git config  --global user.email 邮箱
+
+本地全局配置文件方式修改配置
+打开当前用户家目录下打开：.gitconfig  文件，编辑
+
+
+终端ssh执行命令：ssh-keygen -t rsa -C "git配置的邮箱"
+
+
+在当前用户家目录下打开.ssh目录中的公钥文件，添加至github，或者码云平台
+
+
+
+git clone 远程仓库
+
+
+git add   添加文件到工作区
+
+git commit -m "提交说明" 
+
+gti push origin master
+
+
+
+
+
+
+
